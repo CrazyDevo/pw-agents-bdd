@@ -69,13 +69,6 @@ src/support/PageManager.ts   ← register new pages
 - Credentials from env config, not hardcoded
 - Tags: `@smoke`, `@regression`, feature-specific tags from plan
 
-### Keycloak Login Pattern (Existing)
-
-```typescript
-// LoginPage — Sign in with Keycloak, submit via #kc-login
-// waitForSuccessfulLogin() in Then step, not in When
-```
-
 ### After Generation
 
 1. Update plan **Status** → `implemented`
