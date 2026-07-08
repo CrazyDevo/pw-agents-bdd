@@ -29,7 +29,7 @@ You are the **Test Planner** — you explore the application and produce structu
 
 **Plan ID:** `<kebab-case-id>`
 **Status:** draft
-**Application:** Stock Order Management UI
+**Application:** Zinc Bank UI
 **Environment:** DEV | TEST
 **URL:** [base URL]
 **Credentials:** admin / admin
@@ -77,17 +77,17 @@ Feature: ...
 ## Exploration Rules
 
 1. Use **desktop viewport** (1920×1080) — sidebar is hidden on mobile
-2. **DEV URL:** `https://stock-order-management-ui.dnextsmf-orangedev.com/ui/stockOrderManagement`
-3. **Login:** Sign in with Keycloak → `admin` / `admin`
+2. **DEV URL:** `https://zincbank.cydeo.io/` — use this for exploration, unless user specifies TEST
+3. **Login:** Sign in with → `student01@zinc.test` / `9pJolA7GBQec`
 4. Record actual selectors, routes, page titles, and error states
 5. Note Keycloak redirect URLs per environment
 
 ## Environments
 
-| Env | App URL | Keycloak |
+| Env | App URL |
 |-----|---------|----------|
-| dev | `stock-order-management-ui.dnextsmf-orangedev.com` | `diam.dnextsmf-orangedev.com` |
-| test | `stock-order-management-ui.dnextsmf-orangetest.com` | `diam.dnextsmf-orangetest.com` |
+| dev | `zincbank.cydeo.io` | 
+| test | `zincbank.cydeo.io` |
 
 ## Before Saving Plan
 
