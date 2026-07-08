@@ -60,10 +60,10 @@ Every phase requires explicit user approval. Agents never auto-chain planner →
 ```
 @playwright-bdd-orchestrator
 
-Test login and sidebar on dev:
-1. Go to stock order management UI
-2. Login with admin/admin via Keycloak
-3. Click each sidebar link
+Test login on dev:
+1. Go to Zinc Bank UI
+2. Login with student01@zinc.test/9pJolA7GBQec
+3. Verify Zinc Bank logo
 ```
 
 Orchestrator will create the requirement file and guide you through planner → generator → run → heal.
