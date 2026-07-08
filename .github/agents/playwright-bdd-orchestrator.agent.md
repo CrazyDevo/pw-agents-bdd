@@ -62,10 +62,10 @@ Never auto-proceed without user confirmation.
 ## Example Session
 
 ```
-User: Test stock order creation on dev
+User: Zinc Bank on dev
 
 Orchestrator:
-  1. Creates specs/requirements/REQ-002-stock-order-create.md
+  1. Creates specs/requirements/REQ-002-login.md
   2. Asks: "Should I invoke the planner agent?"
 
 User: yes
@@ -73,7 +73,7 @@ User: yes
 Orchestrator:
   → Invoke @playwright-test-planner with REQ-002 path
 
-[Planner completes → specs/plans/stock-order-create.plan.md]
+[Planner completes → specs/plans/login.plan.md]
 
 Orchestrator:
   Asks: "Should I invoke the generator to compare and implement?"
