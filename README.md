@@ -111,20 +111,20 @@ Environment files are located in `src/config/environments/`:
 
 | File | Environment | URL |
 |------|-------------|-----|
-| `dev.env` | Development | [orangedev](https://stock-order-management-ui.dnextsmf-orangedev.com/ui/stockOrderManagement) |
-| `test.env` | Test | [orangetest](https://stock-order-management-ui.dnextsmf-orangetest.com/ui/stockOrderManagement) |
+| `dev.env` | Development | 
+| `test.env` | Test | |
 
 ### Environment Variables
 
 | Variable | Description | Default |
 |----------|-------------|---------|
 | `ENV` | Target environment | `dev` |
-| `BASE_URL` | Application URL | Stock Order Management UI (dev) |
+| `BASE_URL` | Application URL |  (dev) |
 | `LOGIN_PATH` | Login route | `/login?callbackUrl=%2F` |
 | `API_URL` | API base URL | Environment-specific host |
-| `KEYCLOAK_HOST` | Keycloak identity host | `diam.dnextsmf-orangedev.com` |
-| `USERNAME` | Test username | `admin` |
-| `PASSWORD` | Test password | `admin` |
+| `KEYCLOAK_HOST` | Keycloak identity host | `` |
+| `USERNAME` | Test username | `` |
+| `PASSWORD` | Test password | `` |
 | `BROWSER` | Browser type | `chromium` |
 | `HEADLESS` | Headless mode | `true` |
 | `WORKERS` | Parallel workers | `4` |
