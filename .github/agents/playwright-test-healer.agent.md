@@ -51,7 +51,7 @@ cross-env WORKERS=1 npm run test:dev   # single worker for debugging
 ## Framework Context (Minimal)
 
 ```
-src/pages/LoginPage.ts      — Keycloak flow
+src/pages/LoginPage.ts      — Login flow
 src/pages/DashboardPage.ts  — Sidebar navigation
 src/pages/HomePage.ts       — Post-login home
 src/hooks/BeforeHook.ts     — Timeouts, browser setup
