@@ -120,7 +120,7 @@ Environment files are located in `src/config/environments/`:
 |----------|-------------|---------|
 | `ENV` | Target environment | `dev` |
 | `BASE_URL` | Application URL |  (dev) |
-| `LOGIN_PATH` | Login route | `/login?callbackUrl=%2F` |
+| `LOGIN_PATH` | Login route | `/login` |
 | `API_URL` | API base URL | Environment-specific host |
 | `KEYCLOAK_HOST` | Keycloak identity host | `` |
 | `USERNAME` | Test username | `` |
