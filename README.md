@@ -55,8 +55,8 @@ npm run test:dev
 ### Environment Selection
 
 ```bash
-npm run test:dev      # Development (orangedev)
-npm run test:test     # Test (orangetest)
+npm run test:dev      # Development ()
+npm run test:test     # Test ()
 ```
 
 ### Browser Selection
